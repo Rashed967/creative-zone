@@ -1,25 +1,27 @@
 /* global css */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-.primary-btn{
-    background-color: #F15B22;  
+.primary-btn {
+    background-color: #F15B22;
     padding: .7rem 1rem;
     border: 0;
     border-radius: .2rem;
+    cursor: pointer;
 }
-.primary-btn a{
+
+.primary-btn a {
     color: #FFFFFF;
     font-size: 1.1rem;
     font-weight: 500;
@@ -32,7 +34,7 @@ ul li{
 /* white color color: #FFFFFF; */
 
 /* banner part css start  */
-.banner{
+.banner {
     background-image: url(../images/banner/banner2.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -40,12 +42,14 @@ ul li{
     padding: 10% 10% 10% 60%;
     text-align: right;
 }
-.section-title{
+
+.section-title {
     font-size: 3rem;
-    color: #151414;  
-    font-weight: 700;  
+    color: #151414;
+    font-weight: 700;
 }
-.section-description{
+
+.section-description {
     font-size: .9rem;
     padding: 1.2rem 0;
     line-height: 1.4rem;
@@ -53,57 +57,65 @@ ul li{
 }
 
 /* failures section css start  */
-.failures{
+.failures {
     display: flex;
     padding: 6rem 2rem;
     justify-content: center;
     gap: 4rem;
 }
-.failures-img{
+
+.failures-img {
     width: 40%;
     text-align: right;
 }
-.failures-content{
+
+.failures-content {
     width: 25%;
     margin-top: 6rem;
     padding-top: 6rem;
     padding-right: 1rem;
     margin-right: 6rem;
 }
-.failures-img img{
+
+.failures-img img {
     width: 75%;
 }
-.failures-content .section-title{
+
+.failures-content .section-title {
     font-size: 1.9rem;
 }
-.failures-content .section-description{
+
+.failures-content .section-description {
     font-size: .8rem;
     margin-bottom: -.2rem;
 }
-.failures-content ul li{
+
+.failures-content ul li {
     font-size: .8rem;
     margin: .4rem 0;
     color: #737272;
 }
 
 /* planes section css start */
-.planes{
+.planes {
     text-align: center;
 }
-.planes .section-title{
+
+.planes .section-title {
     font-size: 2.2rem;
-    
+
 }
-.planes-container{
+
+.planes-container {
     display: flex;
     justify-content: space-between;
     padding: 2rem 20%;
 }
 
-.plane .plane-title{
+.plane .plane-title {
     font-size: 1.3rem;
-    color: #151414;  
-    font-weight: 700; 
+    color: #151414;
+    font-weight: 700;
     padding: 1.2rem 0 .8rem;
 }
 
@@ -114,84 +126,137 @@ ul li{
 }
 
 /* call now section css start */
-.call-now-banner{
+.call-now-banner {
     /* background-color: aqua; */
     width: 60%;
     margin: 4rem auto;
     padding: 2.3rem 3rem;
     background-image: url('../images/watch.png'), url('../images/gradient2.png');
     background-repeat: no-repeat;
-    background-blend-mode:multiply;
+    background-blend-mode: multiply;
     border-radius: .3rem;
     background-position: center;
     background-size: cover;
     margin-bottom: 5rem;
 }
-.call-now-content{
+
+.call-now-content {
     width: 50%;
 }
-.call-now-title{
+
+.call-now-title {
     font-size: 2.2rem;
     color: #FFFFFF;
-    font-weight: 700;  
+    font-weight: 700;
     margin: .8rem 0 1.5rem;
 }
-.call-now-btn{
-    background-color: #fff; 
+
+.call-now-btn {
+    background-color: #fff;
     border: 0;
     border-radius: .2rem;
     padding: .9rem 1.5rem;
+    cursor: pointer;
 }
-.call-now-btn a{
+
+.call-now-btn a {
     color: #F15B22;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
+/* from section css start  */
+.form-section{
+    padding: 5rem 0 6rem;
+    background-color: #f15d22e4;
+}
+.form-section .section-title{
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1.3rem;
+}
+.form-area{
+    width: 35%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 3rem .2rem;
+    border-radius: .3rem;
+
+}
+.form-area input,.form-area textarea{
+    display: block;
+    width: 85%;
+    margin: .9rem auto;
+    padding: 1rem;  
+    border: 0;
+    border-radius: .3rem;
+} 
+.form-area input[type="submit"]{
+    /* padding: 0; */
+    background-color: #f15d22;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /*footer section css start */
- footer{
+footer {
     background-color: #151414;
     display: flex;
     padding: 6.5rem 15rem;
     justify-content: space-between;
 }
+
 /* .footer-content .section-title .section-description, ul>li, .footer-form .section-title{
     color: #fff;
 } */
-.footer-content{
+.footer-content {
     width: 40%;
 }
-.footer-form{
+
+.footer-form {
     width: 30%;
 }
-.footer-content .section-title{
+
+.footer-content .section-title {
     font-size: 2.5rem;
     color: #fff;
 }
-.footer-content .section-description{
+
+.footer-content .section-description {
     font-size: .9rem;
     font-weight: 300;
     color: #fff;
 }
-.footer-content ul li{
+
+.footer-content ul li {
     margin: 1rem 0;
     font-size: .8rem;
     color: #fff;
 }
-.footer-social{
+
+.footer-social {
     display: flex;
     gap: 1rem;
     margin-top: 1.6rem;
 }
-.footer-form .section-title{
+.footer-social img{
+    cursor: pointer;
+}
+
+.footer-form .section-title {
     font-size: 1.4rem;
     font-weight: 500;
     color: #fff;
 }
-.footer-form input{
+
+.footer-form input {
     display: block;
 }
-.footer-form input[type="email"]{
+
+.footer-form input[type="email"] {
     width: 85%;
     padding: 1rem 1.1rem;
     border: 1px solid #fff;
@@ -201,16 +266,19 @@ ul li{
     margin-bottom: 1rem;
     color: #fff;
 }
-.footer-form input[type="email"]::placeholder{
+
+.footer-form input[type="email"]::placeholder {
     font-size: 1rem;
     color: #fff;
 }
-.footer-form input[type="submit"]{
-    background-color: #fff; 
+
+.footer-form input[type="submit"] {
+    background-color: #fff;
     border: 0;
     border-radius: .3rem;
     padding: .9rem 2rem;
     color: #F15B22;
     font-size: 1.2rem;
     font-weight: 500;
+    cursor: pointer;
 }
