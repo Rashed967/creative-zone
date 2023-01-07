@@ -62,15 +62,12 @@ ul li{
 .failures-img{
     width: 40%;
     text-align: right;
-    /* padding-right: 2rem; */
-    /* background-color: aqua; */
 }
 .failures-content{
     width: 25%;
     margin-top: 6rem;
     padding-top: 6rem;
     padding-right: 1rem;
-    /* background-color: bisque; */
     margin-right: 6rem;
 }
 .failures-img img{
@@ -128,7 +125,7 @@ ul li{
     border-radius: .3rem;
     background-position: center;
     background-size: cover;
-    
+    margin-bottom: 5rem;
 }
 .call-now-content{
     width: 50%;
@@ -148,5 +145,72 @@ ul li{
 .call-now-btn a{
     color: #F15B22;
     font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/*footer section css start */
+ footer{
+    background-color: #151414;
+    display: flex;
+    padding: 6.5rem 15rem;
+    justify-content: space-between;
+}
+/* .footer-content .section-title .section-description, ul>li, .footer-form .section-title{
+    color: #fff;
+} */
+.footer-content{
+    width: 40%;
+}
+.footer-form{
+    width: 30%;
+}
+.footer-content .section-title{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.footer-content .section-description{
+    font-size: .9rem;
+    font-weight: 300;
+    color: #fff;
+}
+.footer-content ul li{
+    margin: 1rem 0;
+    font-size: .8rem;
+    color: #fff;
+}
+.footer-social{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.6rem;
+}
+.footer-form .section-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-form input{
+    display: block;
+}
+.footer-form input[type="email"]{
+    width: 85%;
+    padding: 1rem 1.1rem;
+    border: 1px solid #fff;
+    border-radius: .3rem;
+    background: none;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.footer-form input[type="email"]::placeholder{
+    font-size: 1rem;
+    color: #fff;
+}
+.footer-form input[type="submit"]{
+    background-color: #fff; 
+    border: 0;
+    border-radius: .3rem;
+    padding: .9rem 2rem;
+    color: #F15B22;
+    font-size: 1.2rem;
     font-weight: 500;
 }
