@@ -82,11 +82,39 @@ ul li{
 }
 .failures-content .section-description{
     font-size: .8rem;
-    margin-bottom: .3rem;
+    margin-bottom: -.2rem;
 }
 .failures-content ul li{
     font-size: .8rem;
     margin: .4rem 0;
+    color: #737272;
+}
+
+/* planes section css start */
+.planes{
+    text-align: center;
+}
+.planes .section-title{
+    font-size: 2.2rem;
+    
+}
+.planes-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 20%;
+}
+
+.plane .plane-title{
+    font-size: 1.3rem;
+    color: #151414;  
+    font-weight: 700; 
+    padding: 1.2rem 0 .8rem;
+}
+
+.plane .plane-description {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #737272;
 }
 
 
