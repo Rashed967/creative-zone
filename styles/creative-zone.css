@@ -14,8 +14,7 @@ ul li{
 }
 
 .primary-btn{
-    background-color: #F15B22;
-    
+    background-color: #F15B22;  
     padding: .7rem 1rem;
     border: 0;
     border-radius: .2rem;
@@ -117,4 +116,37 @@ ul li{
     color: #737272;
 }
 
-
+/* call now section css start */
+.call-now-banner{
+    /* background-color: aqua; */
+    width: 60%;
+    margin: 4rem auto;
+    padding: 2.3rem 3rem;
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    border-radius: .3rem;
+    background-position: center;
+    background-size: cover;
+    
+}
+.call-now-content{
+    width: 50%;
+}
+.call-now-title{
+    font-size: 2.2rem;
+    color: #FFFFFF;
+    font-weight: 700;  
+    margin: .8rem 0 1.5rem;
+}
+.call-now-btn{
+    background-color: #fff; 
+    border: 0;
+    border-radius: .2rem;
+    padding: .9rem 1.5rem;
+}
+.call-now-btn a{
+    color: #F15B22;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
