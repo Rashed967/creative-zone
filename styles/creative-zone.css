@@ -22,6 +22,8 @@ ul li{
 }
 .primary-btn a{
     color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 /* all color property  */
@@ -48,7 +50,43 @@ ul li{
     font-size: .9rem;
     padding: 1.2rem 0;
     line-height: 1.4rem;
-    
+    color: #737272;
+}
+
+/* failures section css start  */
+.failures{
+    display: flex;
+    padding: 6rem 2rem;
+    justify-content: center;
+    gap: 4rem;
+}
+.failures-img{
+    width: 40%;
+    text-align: right;
+    /* padding-right: 2rem; */
+    /* background-color: aqua; */
+}
+.failures-content{
+    width: 25%;
+    margin-top: 6rem;
+    padding-top: 6rem;
+    padding-right: 1rem;
+    /* background-color: bisque; */
+    margin-right: 6rem;
+}
+.failures-img img{
+    width: 75%;
+}
+.failures-content .section-title{
+    font-size: 1.9rem;
+}
+.failures-content .section-description{
+    font-size: .8rem;
+    margin-bottom: .3rem;
+}
+.failures-content ul li{
+    font-size: .8rem;
+    margin: .4rem 0;
 }
 
 
